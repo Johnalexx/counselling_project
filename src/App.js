@@ -13,6 +13,7 @@ function App() {
         <Nav />
         <Route path ="/contact" component={Contact} />
         <Route path ="/about" component={About} />
+        <Route path ="/view-counsellor" component={viewCounsellor} />
       </div>
     </Router>
   );
