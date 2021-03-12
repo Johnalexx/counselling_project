@@ -13,3 +13,17 @@ nav{
     align-items: center;
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+}
