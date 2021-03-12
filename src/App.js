@@ -8,11 +8,13 @@ import About from './pages/About';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Contact />
-      <About />
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Route path ="/contact" component={Contact} />
+        <Route path ="/about" component={About} />
+      </div>
+    </Router>
   );
 }
 
