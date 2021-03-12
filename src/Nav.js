@@ -2,12 +2,15 @@ import React from 'react';
 import './counsel.css';
 import './App.css';
 import {Link} from 'react-router-dom';
+import Logo12 from './images/logo1.png';
 
 function Nav() {
     return (
         <nav>
-            <h3>Logo</h3>
-            <ul className="nav-links">
+            <Link to="/">
+                <img class="nav-logo" src={Logo12} alt="logo" width="70" height="70"/>
+            </Link>
+            <ul className="nav-links dec-linker">
                 <Link to= "/login">
                     <li>Login</li>
                 </Link>

@@ -10,6 +10,7 @@ import About from './pages/About';
 // Auth Imports
 import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
+import ResetPass from './pages/auth/Reset-pass';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         {/* Auth path */}
         <Route path ="/login" component={Login} exact/>
         <Route path ="/signup" component={Signup} exact/>
+        <Route path = "/reset-password" component={ResetPass} exact/>
       </div>
       <Footer />
     </Router>

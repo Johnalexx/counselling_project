@@ -6,6 +6,10 @@ nav{
     background: skyblue;
     color: black;
 }
+.nav-logo{
+    border: 2px solid black;
+    border-radius: 10px;
+}
 .nav-links{
     width: 50%;
     display: flex;
@@ -16,6 +20,120 @@ nav{
 a{
     text-decoration: none;
 }
+/* Login Page */
+.login-card-container {
+    width: 100%;
+    max-width: 375px;
+    padding: 15px;
+    margin: auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.login-card{
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+}
+.login-card-header{
+        background-color: #fff;
+        border-bottom: 1px solid #e6e6f2;
+        margin-bottom: 0;
+        padding: 20px;
+}
+.login-card-description{
+    text-align: center;
+    display: block;
+    line-height: 20px;
+    font-size: 1rem;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.login-card-body{
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+}
+.login-form-footer{
+    border-top: 1px solid #e6e6f2;
+    background: #f6f6ff;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+.login-card-container .card-footer-item {
+    padding: 12px 28px;
+}
+.card-footer-item {
+    padding: 12px 35px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+}
+.login-form-group{
+    margin-bottom: 12px;
+}
+.form-control-lg {
+    padding: 12px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #71748d;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d2d2e4;
+    border-radius: 2px;
+}
+.btn-lg {
+    padding: 11px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    border: 1px solid transparent;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #5969ff;
+    border-color: #5969ff;
+}
+.btn{
+    border-radius: 2px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.text-center{
+    text-align: center !important;
+}
+.dec-link{
+    font-family: monospace;
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+}
+.dec-linker{
+    font-family: monospace;
+    text-decoration: none;
+    color: green;
+    font-size: 17px;
+}
+/* <---------------------------------> */
 .footer{
     position: fixed;
     left: 0;
@@ -25,5 +143,5 @@ a{
     color: white;
     text-align: center;
     font-family: monospace;
-    font-size: 14px;
+    font-size: 8px;
 }
