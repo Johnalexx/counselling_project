@@ -2,18 +2,26 @@ import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Nav from './Nav';
+import Index from './pages/Index';
 import Contact from './pages/Contact';
 import viewCounsellor from './pages/ViewCounsellors';
 import About from './pages/About';
+// Auth Imports
+import Login from './pages/auth/Login';
+import Signup from './pages/auth/Signup';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Nav />
-        <Route path ="/contact" component={Contact} />
-        <Route path ="/about" component={About} />
-        <Route path ="/view-counsellor" component={viewCounsellor} />
+        <Route path ="/" component={Index} exact/>
+        <Route path ="/contact" component={Contact} exact/>
+        <Route path ="/about" component={About} exact/>
+        <Route path ="/view-counsellor" component={viewCounsellor} exact/>
+        {/* Auth path */}
+        <Route path ="/login" component={Login} exact/>
+        <Route path ="/signup" component={Signup} exact/>
       </div>
     </Router>
   );
