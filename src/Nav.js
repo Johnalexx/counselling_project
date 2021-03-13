@@ -20,6 +20,9 @@ function Nav() {
                 <Link to= "/login">
                     <li>Login</li>
                 </Link>
+                <Link to="/faq">
+                    <li>FAQs</li>
+                </Link>
             </ul>
         </nav>
     )

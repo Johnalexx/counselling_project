@@ -11,6 +11,7 @@ import About from './pages/About';
 import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
 import ResetPass from './pages/auth/Reset-pass';
+import FAQs from './pages/FAQs';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path ="/contact" component={Contact} exact/>
         <Route path ="/about" component={About} exact/>
         <Route path ="/view-counsellors" component={viewCounsellor} exact/>
+        <Route path ="/faq" component={FAQs} exact/>
         {/* Auth path */}
         <Route path ="/login" component={Login} exact/>
         <Route path ="/signup" component={Signup} exact/>
