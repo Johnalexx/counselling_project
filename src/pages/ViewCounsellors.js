@@ -5,7 +5,7 @@ function viewCounsellor(){
         <div>
             <h3>Available Counsellors are</h3>
             <div className="counsellor-card-group">
-                <div className="counsellor-card-body">
+                <div className="counsellor-card">
                     John Terry
                 </div>
                 <div>
