@@ -26,6 +26,8 @@ a{
     max-width: 375px;
     padding: 15px;
     margin: auto;
+    border: 2px solid skyblue;
+    border-radius: 19px;
 }
 /* Login Page */
 .login-card-container {

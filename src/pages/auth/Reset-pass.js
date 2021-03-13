@@ -8,13 +8,10 @@ function ResetPass() {
                     <div className="login-card-body">
                            <form className="reset-pass-form-container">
                                <div className="login-form-group">
-                                    <input class="form-control form-control-lg" id="username" type="text" placeholder="Username" autocomplete="off"/>
+                                    <input class="form-control form-control-lg" id="username" type="e-mail" placeholder="Enter e-mail" autocomplete="off"/>
                                </div>
-                               <div class="login-form-group">
-                                    <input class="form-control form-control-lg" id="password" type="password" placeholder="Password"/>
-                                </div>
                                 <div class="login-form-submit">
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Reset Password</button>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Send Link</button>
                                 </div>
                            </form>
                        </div>
