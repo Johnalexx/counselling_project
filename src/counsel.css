@@ -142,6 +142,15 @@ a{
     color: green;
     font-size: 17px;
 }
+/* FAQ page */
+.faq-container{
+    width: 100%;
+    max-width: 375px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid skyblue;
+    border-radius: 19px;
+}
 /* <---------------------------------> */
 .footer{
     position: fixed;
