@@ -1,5 +1,4 @@
 import React from 'react'
-import JT from '../images/js.png'
 
 function viewCounsellor(){
     return(
