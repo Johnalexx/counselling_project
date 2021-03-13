@@ -4,8 +4,8 @@ function viewCounsellor(){
     return(
         <div>
             <h3>Available Counsellors are</h3>
-            <div className="card view-row">
-                <div>
+            <div className="counsellor-card-group">
+                <div className="counsellor-card-body">
                     John Terry
                 </div>
                 <div>
