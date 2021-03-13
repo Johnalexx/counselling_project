@@ -16,6 +16,12 @@ function FAQs() {
                         <p>Counseling provided by trained professionals can make a profound impact on the lives of individuals, families and communities. This service helps people navigate difficult life situations, such as the death of a loved one, divorce, natural disasters, school stress and the loss of a job.</p>
                     </div>
                 </div>
+                <div className="single-faq-container">
+                    <h3>Who are Counsellors?</h3>
+                    <div className="counsellor-answers">
+                        <p>A counsellor is a person whose job is to give advice to people who need it, especially advice on their personal problems.</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
