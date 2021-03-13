@@ -6,7 +6,7 @@ function ResetPass() {
             <h3>Reset Password</h3>
             <div className="password-reset-form">
                     <div className="login-card-body">
-                           <form>
+                           <form className="reset-pass-form-container">
                                <div className="login-form-group">
                                     <input class="form-control form-control-lg" id="username" type="text" placeholder="Username" autocomplete="off"/>
                                </div>

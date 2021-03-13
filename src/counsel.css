@@ -20,6 +20,13 @@ nav{
 a{
     text-decoration: none;
 }
+/* Reset Password page */
+.reset-pass-form-container{
+    width: 100%;
+    max-width: 375px;
+    padding: 15px;
+    margin: auto;
+}
 /* Login Page */
 .login-card-container {
     width: 100%;
