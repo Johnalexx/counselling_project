@@ -11,9 +11,6 @@ function Nav() {
                 <img class="nav-logo" src={Logo12} alt="logo" width="85" height="75"/>
             </Link>
             <ul className="nav-links dec-linker">
-                <Link to= "/view-counsellors">
-                    <li>View Counsellors</li>
-                </Link>
                 <Link to= "/contact">
                     <li>Contact</li>
                 </Link>
