@@ -15,6 +15,12 @@ function Index() {
                     </p>
             </div>
             <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
+            <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
+            <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
+            <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
+            <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
+            <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
+            <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
         </div>
     )
 }
