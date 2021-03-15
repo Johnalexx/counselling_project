@@ -45,7 +45,19 @@ a{
     font-weight: 400;
 }
 .index-jumbotron-btn{
-    
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
 }
 /* Reset Password page */
 .reset-pass-form-container{
