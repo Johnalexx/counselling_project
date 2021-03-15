@@ -6,6 +6,10 @@ nav{
     min-height: 10vh;
     background: skyblue;
     color: black;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
 }
 .nav-logo{
     padding: 8px;
