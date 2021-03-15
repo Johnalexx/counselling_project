@@ -12,6 +12,8 @@ function Index() {
                     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                     <p class="le-ad">
                         <a class="index-jumbotron-btn" href="/guide" role="button">Get Started</a>
+                        |
+                        <a class="index-jumbotron-btn" href="/login" role="button">Login</a>
                     </p>
             </div>
             <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
