@@ -7,11 +7,12 @@ import Index from './pages/Index';
 import Contact from './pages/Contact';
 import viewCounsellor from './pages/ViewCounsellors';
 import About from './pages/About';
+import FAQs from './pages/FAQs';
+import Help from './pages/Help';
 // Auth Imports
 import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
 import ResetPass from './pages/auth/Reset-pass';
-import FAQs from './pages/FAQs';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path ="/about" component={About} exact/>
         <Route path ="/view-counsellors" component={viewCounsellor} exact/>
         <Route path ="/faq" component={FAQs} exact/>
+        <Route path="/guide" component={Help} exact/>
         {/* Auth path */}
         <Route path ="/login" component={Login} exact/>
         <Route path ="/signup" component={Signup} exact/>
