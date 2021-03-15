@@ -20,6 +20,33 @@ nav{
 a{
     text-decoration: none;
 }
+/* Index Page */
+.index-jumbotron{
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+.display-tron{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.hero-unit{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.marg-in{
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+}
+.le-ad{
+    font-size: 1.25rem; 
+    font-weight: 400;
+}
+.index-jumbotron-btn{
+    
+}
 /* Reset Password page */
 .reset-pass-form-container{
     width: 100%;
