@@ -23,13 +23,13 @@ function Login() {
                                     <input class="form-control form-control-lg" id="password" type="password" placeholder="Password"/>
                                 </div>
                                 <div class="form-group">
-                                    <label class="custom-control custom-checkbox">
+                                    <label class="login-remember-checkbox">
                                         <input class="custom-control-input" type="checkbox"/>
-                                        <span class="custom-control-label">Remember Me</span>
+                                        <span class="login-remember-text">Remember Me</span>
                                     </label>
                                 </div>
                                 <div class="login-form-submit">
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+                                    <button type="submit" class="custom-login-btn">Sign in</button>
                                 </div>
                            </form>
                        </div>

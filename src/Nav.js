@@ -8,7 +8,7 @@ function Nav() {
     return (
         <nav>
             <Link to="/">
-                <img class="nav-logo" src={Logo12} alt="logo" width="70" height="70"/>
+                <img class="nav-logo" src={Logo12} alt="logo" width="85" height="75"/>
             </Link>
             <ul className="nav-links dec-linker">
                 <Link to= "/view-counsellors">

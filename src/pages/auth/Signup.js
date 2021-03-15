@@ -35,7 +35,7 @@ function Signup() {
                        <div className="login-form-footer bg-white p-0">
                            <div className="card-footer-item card-footer-item-bordered">
                                <Link to="/login" className="dec-link">
-                                   Login
+                                   Have an account?
                                </Link>
                            </div>
                        </div>

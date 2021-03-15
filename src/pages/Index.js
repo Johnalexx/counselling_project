@@ -9,7 +9,7 @@ function Index() {
                 <h1 className="display-tron">Johnalex Counsels</h1>
                 <p className="hero-unit">Improve Your Life, Reach Your Goals and Get Real Results.</p>
                 <hr class="marg-in"/>
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <p>Tra la lala lalalalalala.</p>
                     <p class="le-ad">
                         <a class="index-jumbotron-btn" href="/guide" role="button">Get Started</a>
                         |
