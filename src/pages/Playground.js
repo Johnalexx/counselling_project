@@ -3,8 +3,8 @@ import React from 'react'
 function Playground() {
     return (
         <div>
+            <h2>J-Play</h2>
             <div class="talk-bubble">
-                J-Play
                         <div class="talktext">
                             <p>CSS Talk Bubble configured by classes. Defaults to square shape, no triangle. Height is auto-adjusting to the height of the text.</p>
                         </div>
