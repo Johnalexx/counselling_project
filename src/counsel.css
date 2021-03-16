@@ -1,6 +1,6 @@
 .App {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     /* padding-top: 100px;
     padding-bottom: 90px; */
   }
@@ -222,6 +222,36 @@ a{
     margin: auto;
     border: 2px solid skyblue;
     border-radius: 19px;
+}
+/* View Counsellor Page*/
+.counsellor-gallery-view {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+.counsellor-gallery-view:hover{
+    border: 1px solid #777;
+}
+.counsellor-image-view{
+    width: 100%;
+    height: auto;
+}
+.counsellor-gallery-description{
+    padding: 15px;
+    text-align: center;
+}
+.counsellor-gallery-links{
+    font-family: monospace;
+    font-weight: 800;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+.counsellor-gender-male{
+    color: teal;
+}
+.counsellor-gender-female{
+    color: purple
 }
 /* <---------------------------------> */
 .footer{
