@@ -18,7 +18,7 @@ function viewCounsellor(){
                         </div>
                     </div>
                     <div className="counsellor-gallery-links">
-                        <p><a href="mailto:adegbolajohn1@gmail.com">Send Mail</a></p>
+                        <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
                     </div>
                 </div>
             <div className="counsellor-gallery-view">
@@ -32,7 +32,7 @@ function viewCounsellor(){
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
-                    <p><a href="mailto:adegbolajohn1@gmail.com">Send Mail</a></p>
+                    <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
                 </div>
             </div>
             <div className="counsellor-gallery-view">
@@ -46,7 +46,7 @@ function viewCounsellor(){
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
-                    <p><a href="mailto:adegbolajohn1@gmail.com">Send Mail</a></p>
+                    <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
                 </div>
             </div>
             <div className="counsellor-gallery-view">
@@ -60,7 +60,7 @@ function viewCounsellor(){
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
-                    <p><a href="mailto:adegbolajohn1@gmail.com">Send Mail</a></p>
+                    <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
                 </div>
             </div>
             <div className="counsellor-gallery-view">
@@ -74,7 +74,7 @@ function viewCounsellor(){
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
-                    <p><a href="mailto:adegbolajohn1@gmail.com">Send Mail</a></p>
+                    <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
                 </div>
             </div>
             <div className="counsellor-gallery-view">
@@ -88,7 +88,7 @@ function viewCounsellor(){
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
-                    <p><a href="mailto:adegbolajohn1@gmail.com">Send Mail</a></p>
+                    <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
                 </div>
             </div>
             <div className="counsellor-gallery-view">
@@ -102,7 +102,7 @@ function viewCounsellor(){
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
-                    <p><a href="mailto:adegbolajohn1@gmail.com">Send Mail</a></p>
+                    <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
                 </div>
             </div>
         </div>
