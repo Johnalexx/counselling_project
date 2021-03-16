@@ -9,6 +9,9 @@ import viewCounsellor from './pages/ViewCounsellors';
 import About from './pages/About';
 import FAQs from './pages/FAQs';
 import Help from './pages/Help';
+// Playground and Style
+import Playground from './pages/Playground';
+import './pages/Playground.css'
 // Auth Imports
 import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
@@ -25,6 +28,7 @@ function App() {
         <Route path ="/view-counsellors" component={viewCounsellor} exact/>
         <Route path ="/faq" component={FAQs} exact/>
         <Route path="/guide" component={Help} exact/>
+        <Route path="/play" component={Playground} exact/>
         {/* Auth path */}
         <Route path ="/login" component={Login} exact/>
         <Route path ="/signup" component={Signup} exact/>
