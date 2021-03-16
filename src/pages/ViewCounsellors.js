@@ -28,7 +28,7 @@ function viewCounsellor(){
                 <div className="counsellor-gallery-description">
                     Ruben Dias
                     <div className="counsellor-gender-male">
-                            <p>Gender: <i>Male</i></p>
+                        <p>Gender: <i>Male</i></p>
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
@@ -42,7 +42,7 @@ function viewCounsellor(){
                 <div className="counsellor-gallery-description">
                     Joao Cancelo
                     <div className="counsellor-gender-male">
-                            <p>Gender: <i>Male</i></p>
+                        <p>Gender: <i>Male</i></p>
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
@@ -56,7 +56,7 @@ function viewCounsellor(){
                 <div className="counsellor-gallery-description">
                     Kevin DeBruyne
                     <div className="counsellor-gender-male">
-                            <p>Gender: <i>Male</i></p>
+                        <p>Gender: <i>Male</i></p>
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
