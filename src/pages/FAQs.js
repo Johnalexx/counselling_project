@@ -23,6 +23,17 @@ function FAQs() {
                     </div>
                 </div>
             </div>
+            <div className="faq-container">
+                    <div className="faq-chatter">
+                        <h3 className="faq-header">HEY HEY HEY</h3>
+                    <div className="faq-container-content">
+                        <p>How are you doing today?</p>
+                    </div>
+                    <div className="single-faq-info">
+                        Posted on March 16,2021
+                    </div>
+                </div>
+            </div>      
         </div>
     )
 }
