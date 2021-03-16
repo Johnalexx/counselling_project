@@ -223,6 +223,16 @@ a{
     border: 2px solid skyblue;
     border-radius: 19px;
 }
+.faqs-container{
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    max-width: 375px;
+    border: 4px solid green;
+    border-top-right-radius: 800px;
+    border-top-left-radius: 900px;
+    border-bottom-left-radius: 500px;
+}
 /* View Counsellor Page*/
 .counsellor-gallery-view {
     margin: 5px;

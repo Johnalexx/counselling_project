@@ -23,7 +23,7 @@ function FAQs() {
                     </div>
                 </div>
             </div>
-            <div className="faq-container">
+            <div className="faqs-container">
                     <div className="faq-chatter">
                         <h3 className="faq-header">HEY HEY HEY</h3>
                     <div className="faq-container-content">
