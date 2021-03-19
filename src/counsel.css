@@ -263,6 +263,30 @@ a{
 .counsellor-gender-female{
     color: purple
 }
+/* Chat Bubbles */
+.chat-bubble {
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: auto;
+    background-color: lightyellow;
+}
+.chat-border{
+    border: 8px solid #666;
+  }
+.chat-round{
+    border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+}
+/* Contact Page */
+.contact-info-panel{
+    float: left;
+    background-color: skyblue;
+    border-radius: 80px;
+    padding: 3%;
+}
 /* <---------------------------------> */
 .footer{
     position: fixed;

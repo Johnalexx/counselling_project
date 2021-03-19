@@ -33,7 +33,14 @@ function FAQs() {
                         Posted on March 16,2021
                     </div>
                 </div>
-            </div>      
+            </div>
+            <div class="talk-bubble tri-right round border right-top">
+                <div class="talktext">
+                    <h4>How do i use the app?</h4>
+                    <p>Just blah blah blah and blah</p>
+                    <p><i>Posted by J.Alejandro Grimaldo</i></p>
+                </div>
+            </div>     
         </div>
     )
 }
