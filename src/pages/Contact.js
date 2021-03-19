@@ -18,6 +18,9 @@ function Contact() {
                     <h2>+99999Four One Nine</h2>
                 </div>
             </div>
+            <div className="main-contact-panel">
+                
+            </div>
         </div>
     )
 }
