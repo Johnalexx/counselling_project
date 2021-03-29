@@ -31,7 +31,11 @@ function Contact() {
                                 <input id="" className="contact-form-control"/>
                             </div>
                             <div className="contact-form-group">
-                                <input type="text" placeholder="Enter Message" className="contact-form-control"/>
+                                <input type="text" placeholder="Phone Number" className="contact-form-control"/>
+                            </div>
+                            <br/>
+                            <div className="contact-form-group">
+                                <textarea className="message-group contact-form-control" placeholder="Enter Message" required/>
                             </div>
                         </div>
                     </form>
