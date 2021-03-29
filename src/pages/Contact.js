@@ -3,23 +3,39 @@ import React from 'react'
 function Contact() {
     return (
         <div>
-            <h3>Contact the Counsellor</h3>
-            <div className="contact-form">
-                <h4>Counsellor on Duty: Johnalex</h4>
-            </div>
-            <div className="contact-info-panel">
-                <div className="location-panel">
-                    <h2>Anchor University, Lagos</h2>
+            <div className="contact-mt container-row">
+                <div className="contact-info-container">
+                    <div className="contact-info">
+                        <div className="address-panel">
+                            <h4>Location: </h4>
+                            <p>Anchor University, Lagos.</p>
+                        </div>
+                        <div className="e-mail-panel">
+                            <h4>Email: </h4>
+                            <p>adegbolajohn1@gmail.com</p>
+                        </div>
+                        <div className="phone-panel">
+                            <h4>Call: </h4>
+                            <p>+234 906 880 0564</p>
+                        </div>
+                    </div>
                 </div>
-                <div className="email-panel">
-                    <h2>johna@sample.counselling.com</h2>
+                    <div className="contact-form-container contact-col">
+                    <form className="contact-mailing-form">
+                        <div className="contact-form-row">
+                            <div className="contact-col-md contact-form-group contact-form-rww">
+                                <input id="" placeholder="Name" className="contact-form-control"/>
+                                <input id="" placeholder="E-mail" className="contact-form-control"/>
+                            </div>
+                            <div className="contact-form-group contact-col-md">
+                                <input id="" className="contact-form-control"/>
+                            </div>
+                            <div className="contact-form-group">
+                                <input type="text" placeholder="Enter Message" className="contact-form-control"/>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div className="phone-panel">
-                    <h2>+99999Four One Nine</h2>
-                </div>
-            </div>
-            <div className="main-contact-panel">
-                
             </div>
         </div>
     )
