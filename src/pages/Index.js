@@ -16,6 +16,8 @@ function Index() {
                         <a class="index-jumbotron-btn" href="/login" role="button">Login</a>
                         |
                         <a class="index-jumbotron-btn" href="/view-counsellors" role="button">View Counsellors</a>
+                        <br/><br/>
+                        <a class="index-jumbotron-btn" href="/book-appointment" role="button">Book Appointment</a>
                     </p>
             </div>
             <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
