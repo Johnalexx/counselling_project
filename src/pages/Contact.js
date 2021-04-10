@@ -25,18 +25,13 @@ function Contact() {
                         <div className="contact-form-row">
                             <div className="contact-col-md contact-form-group contact-form-rww">
                                 <input id="" placeholder="Name" className="contact-form-control"/>
+                                <br/>
                                 <input id="" placeholder="E-mail" className="contact-form-control"/>
                             </div>
-                            <div className="contact-form-group contact-col-md">
-                                <input id="" className="contact-form-control"/>
-                            </div>
-                            <div className="contact-form-group">
-                                <input type="text" placeholder="Phone Number" className="contact-form-control"/>
-                            </div>
-                            <br/>
-                            <div className="contact-form-group">
-                                <textarea className="message-group contact-form-control" placeholder="Enter Message" required/>
-                            </div>
+                           
+                        </div>
+                        <div className="">
+                            <button className="btn-primary btn btn-lg">Send Message</button>
                         </div>
                     </form>
                 </div>

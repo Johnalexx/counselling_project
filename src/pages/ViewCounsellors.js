@@ -19,6 +19,8 @@ function viewCounsellor(){
                     </div>
                     <div className="counsellor-gallery-links">
                         <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
+                        <br/>
+                        <p><a href="#" className="btn-primary btn btn-lg">Read Counsellor</a></p>
                     </div>
                 </div>
             <div className="counsellor-gallery-view">
