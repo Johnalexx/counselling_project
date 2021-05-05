@@ -8,7 +8,9 @@ import Contact from './pages/Contact';
 import viewCounsellor from './pages/ViewCounsellors';
 import About from './pages/About';
 import FAQs from './pages/FAQs';
-import Help from './pages/Help';
+import Help from './pages/FindCounsellor';
+// Important Pages
+import BookAppointment from './pages/BookAppointment';
 // Playground and Style
 import Playground from './pages/Playground';
 import './pages/Playground.css'
@@ -31,6 +33,8 @@ function App() {
           <Route path ="/faq" component={FAQs} exact/>
           <Route path="/guide" component={Help} exact/>
           <Route path="/play" component={Playground} exact/>
+          {/* Important Pages */}
+          <Route path="/book-appointment" component={BookAppointment} exact/>
           {/* Auth path */}
           <Route path ="/login" component={Login} exact/>
           <Route path ="/signup" component={Signup} exact/>

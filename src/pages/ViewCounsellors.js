@@ -7,6 +7,7 @@ function viewCounsellor(){
     return(
         <div>
             <h3>Available Counsellors are</h3>
+
                 <div className="counsellor-gallery-view">
                     <Link to="/">
                         <img class="counsellor-image-view" src={Sample1} alt="Image" width="100" height="80"/>
@@ -15,6 +16,9 @@ function viewCounsellor(){
                         John Stones
                         <div className="counsellor-gender-male">
                             <p>Gender: <i>Male</i></p>
+                        </div>
+                        <div className="counsellor-rating">
+                            <p>5 <span className="fa fa-star"></span></p>
                         </div>
                     </div>
                     <div className="counsellor-gallery-links">
@@ -32,6 +36,9 @@ function viewCounsellor(){
                     <div className="counsellor-gender-male">
                         <p>Gender: <i>Male</i></p>
                     </div>
+                    <div className="counsellor-rating">
+                            <p>10 <span className="fa fa-star"></span></p>
+                        </div>
                 </div>
                 <div className="counsellor-gallery-links">
                     <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
@@ -46,6 +53,9 @@ function viewCounsellor(){
                     <div className="counsellor-gender-male">
                         <p>Gender: <i>Male</i></p>
                     </div>
+                    <div className="counsellor-rating">
+                            <p>5.2 <span className="fa fa-star"></span></p>
+                        </div>
                 </div>
                 <div className="counsellor-gallery-links">
                     <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
@@ -60,6 +70,9 @@ function viewCounsellor(){
                     <div className="counsellor-gender-male">
                         <p>Gender: <i>Male</i></p>
                     </div>
+                    <div className="counsellor-rating">
+                            <p>10 <span className="fa fa-star"></span></p>
+                        </div>
                 </div>
                 <div className="counsellor-gallery-links">
                     <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
@@ -74,6 +87,9 @@ function viewCounsellor(){
                     <div className="counsellor-gender-female">
                             <p>Gender: <i>Female</i></p>
                     </div>
+                    <div className="counsellor-rating">
+                            <p>4 <span className="fa fa-star"></span></p>
+                    </div>
                 </div>
                 <div className="counsellor-gallery-links">
                     <p><a href="mailto:adegbolajohn1@gmail.com" className="btn-primary btn btn-lg">Send Mail</a></p>
@@ -86,7 +102,10 @@ function viewCounsellor(){
                 <div className="counsellor-gallery-description">
                     Bernardo Carvalho Silva
                     <div className="counsellor-gender-male">
-                            <p>Gender: <i>Male</i></p>
+                        <p>Gender: <i>Male</i></p>
+                    </div>
+                    <div className="counsellor-rating">
+                        <p>7 <span className="fa fa-star"></span></p>
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
@@ -100,7 +119,10 @@ function viewCounsellor(){
                 <div className="counsellor-gallery-description">
                     Sergio Kun Aguero
                     <div className="counsellor-gender-male">
-                            <p>Gender: <i>Male</i></p>
+                        <p>Gender: <i>Male</i></p>
+                    </div>
+                    <div className="counsellor-rating">
+                        <p>5 <span className="fa fa-star"></span></p>
                     </div>
                 </div>
                 <div className="counsellor-gallery-links">
