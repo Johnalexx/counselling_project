@@ -31,7 +31,7 @@ function App() {
           <Route path ="/about" component={About} exact/>
           <Route path ="/view-counsellors" component={viewCounsellor} exact/>
           <Route path ="/faq" component={FAQs} exact/>
-          <Route path="/guide" component={Help} exact/>
+          <Route path="/find-counsellor" component={Help} exact/>
           <Route path="/play" component={Playground} exact/>
           {/* Important Pages */}
           <Route path="/book-appointment" component={BookAppointment} exact/>
