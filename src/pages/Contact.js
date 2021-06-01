@@ -27,6 +27,8 @@ function Contact() {
                                 <input id="" placeholder="Name" className="contact-form-control"/>
                                 <br/>
                                 <input id="" placeholder="E-mail" className="contact-form-control"/>
+                                <br/>
+                                <textarea id="" placeholder="Enter Message..." className="textarea-form-control"/>
                             </div>
                            
                         </div>

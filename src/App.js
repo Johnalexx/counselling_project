@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 import viewCounsellor from './pages/ViewCounsellors';
 import About from './pages/About';
 import FAQs from './pages/FAQs';
-import Help from './pages/FindCounsellor';
+import FindCounsellor from './pages/FindCounsellor';
 // Important Pages
 import BookAppointment from './pages/BookAppointment';
 // Playground and Style
@@ -19,6 +19,7 @@ import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
 import ResetPass from './pages/auth/Reset-pass';
 import NotFound from './pages/NotFound';
+import ProfilePage from './pages/ProfilePage';
 
 function App() {
   return (
@@ -31,10 +32,11 @@ function App() {
           <Route path ="/about" component={About} exact/>
           <Route path ="/view-counsellors" component={viewCounsellor} exact/>
           <Route path ="/faq" component={FAQs} exact/>
-          <Route path="/find-counsellor" component={Help} exact/>
+          <Route path="/find-counsellor" component={FindCounsellor} exact/>
           <Route path="/play" component={Playground} exact/>
           {/* Important Pages */}
           <Route path="/book-appointment" component={BookAppointment} exact/>
+          <Route path="/user-profile" component={ProfilePage} exact/>
           {/* Auth path */}
           <Route path ="/login" component={Login} exact/>
           <Route path ="/signup" component={Signup} exact/>
