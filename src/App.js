@@ -20,6 +20,11 @@ import Signup from './pages/auth/Signup';
 import ResetPass from './pages/auth/Reset-pass';
 import NotFound from './pages/NotFound';
 import ProfilePage from './pages/ProfilePage';
+import AdminCounselLog from './pages/functions/admin/AdminCounselLog';
+import CounselIndex from './pages/functions/admin/CounselIndex';
+import PendingMeeting from './pages/functions/admin/PendingMeeting';
+import UserChatRoom from './pages/functions/authorized users/UserChatRoom';
+import AdminChatRoom from './pages/functions/admin/AdminChatRoom';
 
 function App() {
   return (
@@ -34,6 +39,13 @@ function App() {
           <Route path ="/faq" component={FAQs} exact/>
           <Route path="/find-counsellor" component={FindCounsellor} exact/>
           <Route path="/play" component={Playground} exact/>
+          {/* Permission- Admin */}
+          <Route path="/admin/index" component={CounselIndex} exact/>
+          <Route path="/admin/counsel-log" component={AdminCounselLog} exact/>
+          <Route path="/admin/meeting-requests" component={PendingMeeting} exact/>
+          <Route path="/admin/chat" component={AdminChatRoom} exact/>
+          {/* Permission - Authorized Clients */}
+          <Route path="/chat" component={UserChatRoom} exact/>
           {/* Important Pages */}
           <Route path="/book-appointment" component={BookAppointment} exact/>
           <Route path="/user-profile" component={ProfilePage} exact/>

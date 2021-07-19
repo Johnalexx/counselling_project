@@ -22,6 +22,12 @@ function FAQs() {
                         <p>A counsellor is a person whose job is to give advice to people who need it, especially advice on their personal problems.</p>
                     </div>
                 </div>
+                <div className="single-faq-container">
+                    <h3>Do i Need to be a computer literate to enrol in online counselling?</h3>
+                    <div className="counsellor-answers">
+                        <p>Of course individuals who are looking to pursue the option of online counselling will need some basic compute skills, you dont need to be a technical genius before online counselling works for you.</p>
+                    </div>
+                </div>
             </div>
             <div className="faqs-container">
                     <div className="faq-chatter">

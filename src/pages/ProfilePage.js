@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import UserProfileImage from '../images/profile/pro-image.jpg';
 import '../Profile.css'
 
 function ProfilePage() {
@@ -9,8 +10,8 @@ function ProfilePage() {
             <div className="card">
 								<div className="card-body bg-indigo-400 text-center card-img-top" >
 									<div className="card-img-actions d-inline-block mb-3">
-										<img className="img-fluid rounded-circle" src="../../../../global_assets/images/placeholders/placeholder.jpg" alt="" width="170" height="170"/>
-										<div class="card-img-actions-overlay rounded-circle">
+										<img className="img-fluid rounded-circle" src={UserProfileImage} alt="" width="170" height="170"/>
+										<div className="card-img-actions-overlay rounded-circle">
 											<Link to="#" className="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round">
 												<i className="icon-plus3"></i>
 											</Link>
@@ -20,8 +21,8 @@ function ProfilePage() {
 										</div>
 									</div>
 
-						    		<h6 className="font-weight-semibold mb-0">Victoria Davidson</h6>
-						    		<span className="d-block opacity-75">Head of UX</span>
+						    		<h6 className="font-weight-semibold mb-0">Adegbola John</h6>
+						    		<span className="d-block opacity-75">Student</span>
 
 					    			<div className="list-icons list-icons-extended mt-3">
 				                    	<Link to="#" className="list-icons-item text-white" data-popup="tooltip" title="" data-container="body" data-original-title="Google Drive">

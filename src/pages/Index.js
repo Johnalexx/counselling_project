@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 function Index() {
     return (
         <div>
+            <h2>Guest Index View</h2>
             {/* Homepage JumboTron */}
             <div className="index-jumbotron">
                 <h1 className="display-tron">Johnalex Counsels</h1>

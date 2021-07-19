@@ -1,0 +1,60 @@
+.chatroom-card{
+    margin-bottom: 1.25rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .1875rem;
+}
+
+.chatroom-chat-header{
+    background-color: transparent;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom-width: 0;
+
+    border-radius: .125rem .125rem 0 0;
+}
+
+.card-header {
+    padding: .9375rem 1.25rem;
+        padding-top: 0.9375rem;
+        padding-bottom: 0.9375rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.02);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+        border-bottom-width: 1px;
+}
+
+.chatroom-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.header-elements-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.chatroom-chat-body{
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    padding-top: 1.25rem;
+
+}
