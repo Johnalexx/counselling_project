@@ -15,7 +15,7 @@ function AdminChatRoom() {
              <div className="content">
                     <div className="chatroom-card">
                         <div className="chatroom-chat-header header-elements-inline">
-                            <h5 className="chatroom-title">JARON 2029</h5>
+                            <h5 className="chatroom-title">Dillian</h5>
                         </div>
                         <div className="chatroom-chat-body">
                             <ul className="chatroom-media-list chatroom-media-chat chatroom-media-chat-scrollable mb-3">

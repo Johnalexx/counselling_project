@@ -1,5 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
+// import '../../../assets/css/bootstrap.min.css';
+// import '../../../assets/css/bootstrap_limitless.css';
+// import '../../../assets/css/bootstrap_limitless.min.css';
 // import '../../../ConceptStylesheet.css';
 // import '../../Counsellog.css'
 
@@ -20,6 +23,12 @@ function AdminCounselLog(){
                                         <i className="fa fa-eye fa-fw fa-sm text-info"></i>
                                     </div>
                                 </div>
+
+                                <div class="alert alert-success alert-styled-left alert-arrow-left alert-dismissible">
+									<button type="button" class="close" data-dismiss="alert"><span>×</span></button>
+									<span class="font-weight-semibold">Well done!</span> You successfully read <a href="#" class="alert-link">this important</a> alert message.
+							    </div>
+
                             </div>
                         </div>
                 </div>

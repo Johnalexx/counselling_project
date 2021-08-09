@@ -31,6 +31,92 @@ nav{
     align-items: center;
     list-style: none;
 }
+/* Dropdown Nav */
+.dropdown{
+    position: relative;
+}
+.dropdown-user{
+
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.user-avatar{
+    width: 30px;
+    height: 30px;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 11.25rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: .8125rem;
+    color: #333;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .1875rem;
+    box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+}
+.dropdown-menu{
+    float: none;
+}
+.dropdown-menu-show{
+    display: block;
+}
+.dropdown-meu-right{
+    right: 0;
+    left: auto;
+}
+/* Dropdown Item */
+.dropdown-item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    outline: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    margin-bottom: 0;
+    transition: background-color ease-in-out .15s,color ease-in-out .15s;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .5rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #333;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+/* Dropdown Divider */
+.dropdown-divider {
+    margin: .5rem 0;
+}
+.dropdown-divider {
+    height: 0;
+    margin: .625rem 0;
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+}
+
+
+
 a{
     text-decoration: none;
 }

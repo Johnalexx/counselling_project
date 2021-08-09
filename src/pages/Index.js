@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function Index() {
     return (
         <div>
-            <h2>Guest Index View</h2>
+            {/* <h2>Guest Index View</h2> */}
             {/* Homepage JumboTron */}
             <div className="index-jumbotron">
                 <h1 className="display-tron">Johnalex Counsels</h1>
@@ -17,8 +17,6 @@ function Index() {
                         <a class="index-jumbotron-btn" href="/login" role="button">Login</a>
                         |
                         <a class="index-jumbotron-btn" href="/view-counsellors" role="button">View Counsellors</a>
-                        |
-                        <a class="index-jumbotron-btn" href="/find-counsellor" role="button">Find Counsellors</a>
                         <br/><br/>
                         <a class="index-jumbotron-btn" href="/book-appointment" role="button">Book Appointment</a>
                     </p>

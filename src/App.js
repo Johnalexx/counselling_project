@@ -25,6 +25,7 @@ import CounselIndex from './pages/functions/admin/CounselIndex';
 import PendingMeeting from './pages/functions/admin/PendingMeeting';
 import UserChatRoom from './pages/functions/authorized users/UserChatRoom';
 import AdminChatRoom from './pages/functions/admin/AdminChatRoom';
+import Notification from './pages/functions/authorized users/Notification';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           {/* Important Pages */}
           <Route path="/book-appointment" component={BookAppointment} exact/>
           <Route path="/user-profile" component={ProfilePage} exact/>
+          <Route path="/notifications" component={Notification} exact/>
           {/* Auth path */}
           <Route path ="/login" component={Login} exact/>
           <Route path ="/signup" component={Signup} exact/>
