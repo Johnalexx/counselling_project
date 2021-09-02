@@ -1,0 +1,102 @@
+.page-content{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+.datatable-wrapper{
+    
+    width: 80%;
+    border-top: 1px solid #ddd;
+    position: relative;
+    clear: both;
+}
+.datatable-header{
+    border-bottom: 1px solid #ddd;
+    padding: 1.25rem 1.25rem 0 1.25rem;
+}
+.datatable-header > div:first-child{
+    margin-left: 0;
+}
+.datatable-header-filter{
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 0 1.25rem 1.25rem;
+}
+.datatable-table-length{
+    float: right;
+    margin: 0 0 1.25rem 1.25rem;
+}
+.datatable-table-length > div:first-child{
+    float: left;
+    margin: .5rem .83333rem;
+    margin-left: 0;
+}
+
+.datatable-scroll{
+    min-height: .01%;
+}
+.dataTable{
+    margin: 0;
+    max-width: none;
+}
+.table{
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+.table tr{
+    transition: background-color ease-in-out .15s;
+}
+.table thead:first-child tr:first-child th {
+    border-top-width: 0;
+}
+.dataTable thead .sorting,
+.dataTable thead .sorting_asc,
+.dataTable thead .sorting_desc {
+    cursor: pointer;
+}
+.dataTable thead .sorting,
+.dataTable thead .sorting_asc,
+.dataTable thead .sorting_asc_disabled,
+.dataTable thead .sorting_desc,
+.dataTable thead .sorting_desc_disabled {
+    padding-right: 2.5rem;
+}
+.dataTable thead th {
+    outline: 0;
+    position: relative;
+}
+.table thead th {
+    vertical-align: middle;
+    border-bottom: 1px solid #b7b7b7;
+}
+.table th {
+    font-weight: 500;
+}
+.action{
+    width: 100px;
+}
+.badge{
+    display: inline-block;
+    padding: .3125rem .375rem;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .125rem;
+}
+.badge-success{
+    color: #fff;
+    background-color: #4caf50;
+}
+.badge-failure{
+    color: #fff;
+    background-color: #f44336;
+}
+.badge-pending{
+    color: #fff;
+    background-color: #00bcd4;
+}

@@ -3,14 +3,14 @@ import {Link} from 'react-router-dom';
 
 function Index() {
     return (
-        <div>
+        <div className="central-jumbo">
             {/* <h2>Guest Index View</h2> */}
             {/* Homepage JumboTron */}
             <div className="index-jumbotron">
                 <h1 className="display-tron">Johnalex Counsels</h1>
                 <p className="hero-unit">Improve Your Life, Reach Your Goals and Get Real Results.</p>
                 <hr class="marg-in"/>
-                    <p>Tra la lala lalalalalala.</p>
+                    <p>J.O.H.N.A.L.E.X..C.O.U.N.S.E.L.S.</p>
                     <p class="le-ad">
                         <a class="index-jumbotron-btn" href="/guide" role="button">Get Started</a>
                         |

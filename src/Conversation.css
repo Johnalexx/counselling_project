@@ -1,0 +1,87 @@
+
+/* Version Two Chatroom */
+.messenger {
+    height: calc(100vh - 70px);
+    display: flex;
+}
+
+.chatMenu {
+    flex: 3.5;
+}
+
+.chatMenuInput{
+    width: 90%;
+    padding: 10px 0;
+    border: none
+}
+
+.chatBox{
+    flex: 5.5;
+}
+.chatBoxBottom{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chatMenuWrapper,
+.chatBoxWrapper{
+    padding: 10px;
+    height: 100%;
+}
+
+/* Convo */
+.conversation{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.conversation:hover{
+    background-color: rgb(245, 243, 243);
+}
+.conversationImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.conversationName{
+    font-weight: 500;
+}
+
+/* Messsage Styling Zone */
+.message{
+    display: flex;
+    flex-direction: column;
+}
+.messageTop{
+    display: flex;
+}
+.messageImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.messageText{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #1877f2;
+    color: white;
+    max-width: 300px;
+}
+.messageBottom{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.message.own{
+    align-items: flex-end;
+}
+.message.own .messageText{
+    background-color: rgb(245, 241, 241);
+    color: black;
+}

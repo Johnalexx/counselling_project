@@ -1,9 +1,30 @@
 import React from 'react';
+import {useState} from 'react';
+import Axios from 'axios';
 // import Bg1 from '../images/book-appointment.png';
 import Bg1 from '../images/app1.png';
 import '../Appoint.css';
 
 function BookAppointment() {
+    const [email, setEmail] = useState ("");
+    const [name, setName] = useState("");
+    const [level, setLevel] = useState(0);
+    const [reason, setReason] = useState("");
+    
+
+    const BookAppointment = () => {
+        Axios.post("http://localhost:3001/book-appointment", {
+            email: email,
+            name: name,
+            level: level,
+            reason: reason,
+            // date: date,
+            // time: time,
+        }).then(() => {
+
+        })
+    }
+
     return (
         <div>
             <div class="limiter">

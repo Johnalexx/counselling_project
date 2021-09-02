@@ -1,8 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function CounselIndex() {
     return (
-        <div>
+        <div className="central-jumbo">
             <h3>Administration Counsel Portal</h3>
             <div>
             {/* Admin Homepage JumboTron */}
@@ -21,7 +22,7 @@ function CounselIndex() {
                         <a class="index-jumbotron-btn" href="/admin/counsel-log" role="button">Check Appointments</a>
                     </p>
             </div>
-            <p><a href="https://github.com/johnalexx" target="_blank">View my GitHub page</a></p>
+            <p><Link to="https://github.com/johnalexx" target="_blank">View my GitHub page</Link></p>
         </div>
         </div>
     )

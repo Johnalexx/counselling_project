@@ -1,5 +1,5 @@
 .App {
-    text-align: center;
+    /* text-align: center; */
     padding-bottom: 40px;
     /* padding-top: 100px;
     padding-bottom: 90px; */
@@ -121,6 +121,9 @@ a{
     text-decoration: none;
 }
 /* Index Page */
+.central-jumbo{
+    text-align: center;
+}
 .index-jumbotron{
     padding: 4rem 2rem;
     margin-bottom: 2rem;

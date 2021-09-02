@@ -19,13 +19,16 @@ import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
 import ResetPass from './pages/auth/Reset-pass';
 import NotFound from './pages/NotFound';
+
 import ProfilePage from './pages/ProfilePage';
 import AdminCounselLog from './pages/functions/admin/AdminCounselLog';
 import CounselIndex from './pages/functions/admin/CounselIndex';
 import PendingMeeting from './pages/functions/admin/PendingMeeting';
 import UserChatRoom from './pages/functions/authorized users/UserChatRoom';
 import AdminChatRoom from './pages/functions/admin/AdminChatRoom';
-import Notification from './pages/functions/authorized users/Notification';
+import CounselLog from './pages/functions/authorized users/CounselLog';
+import React from 'react';
+
 
 function App() {
   return (
@@ -47,10 +50,10 @@ function App() {
           <Route path="/admin/chat" component={AdminChatRoom} exact/>
           {/* Permission - Authorized Clients */}
           <Route path="/chat" component={UserChatRoom} exact/>
+          <Route path="/meeting-log" component={CounselLog} exact/>
           {/* Important Pages */}
           <Route path="/book-appointment" component={BookAppointment} exact/>
           <Route path="/user-profile" component={ProfilePage} exact/>
-          <Route path="/notifications" component={Notification} exact/>
           {/* Auth path */}
           <Route path ="/login" component={Login} exact/>
           <Route path ="/signup" component={Signup} exact/>
