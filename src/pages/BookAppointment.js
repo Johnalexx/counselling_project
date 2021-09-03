@@ -21,7 +21,7 @@ function BookAppointment() {
             // date: date,
             // time: time,
         }).then(() => {
-
+            
         })
     }
 
@@ -50,11 +50,11 @@ function BookAppointment() {
                             <div class="wrap-input100 validate-input" data-validate = "Level required">
                                 <select class="input100">
                                     <option>LEVEL</option>
-                                    <option>JUPEB</option>
-                                    <option>100</option>
-                                    <option>200</option>
-                                    <option>300</option>
-                                    <option>400</option>
+                                    <option id="jupeb">JUPEB</option>
+                                    <option id="100">100</option>
+                                    <option id="200">200</option>
+                                    <option id="300">300</option>
+                                    <option id="400">400</option>
                                 </select>
                                 <span class="focus-input100"></span>
                                 <span class="symbol-input100">
@@ -88,7 +88,8 @@ function BookAppointment() {
                             
                             
                             <div class="container-login100-form-btn">
-                                <button class="login100-form-btn">
+                                <button class="login100-form-btn"
+                                    onClick={BookAppointment}>
                                     Submit Appointment
                                 </button>
                             </div>

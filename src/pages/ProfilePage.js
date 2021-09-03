@@ -16,21 +16,14 @@ function ProfilePage() {
 												<i className="icon-plus3"></i>
 											</Link>
 											<Link to="#" className="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round ml-2">
-												<i className="icon-link"></i>
+												<i className="icon-touch-pinch"></i>
 											</Link>
 										</div>
 									</div>
 
-						    		<h6 className="font-weight-semibold mb-0">Adegbola John</h6>
-						    		<span className="d-block opacity-75">Student</span>
+						    		<h6 className="full-profile-name color-black">Adegbola John</h6>
+						    		<span className="profile-role color-black">Student</span>
 
-					    			<div className="list-icons list-icons-extended mt-3">
-				                    	<Link to="#" className="list-icons-item text-white" data-popup="tooltip" title="" data-container="body" data-original-title="Google Drive">
-                                            <i className="icon-google-drive"></i>
-                                        </Link>
-				                    	<Link to="#" className="list-icons-item text-white" data-popup="tooltip" title="" data-container="body" data-original-title="Twitter"><i class="icon-twitter"></i></Link>
-				                    	<Link to="#" className="list-icons-item text-white" data-popup="tooltip" title="" data-container="body" data-original-title="Github"><i class="icon-github"></i></Link>
-			                    	</div>
 						    	</div>
 
 								<div className="card-body p-0">
@@ -43,10 +36,9 @@ function ProfilePage() {
 											</Link>
 										</li>
 										<li className="nav-item">
-											<Link to="#" className="nav-link" data-toggle="tab">
-												<i className="icon-calendar3"></i>
-												Schedule
-												<span className="font-size-sm font-weight-normal opacity-75 ml-auto">02:56pm</span>
+											<Link to="/update-password" className="nav-link" data-toggle="tab">
+												<i className="icon-key"></i>
+												Update Password
 											</Link>
 										</li>
 										<li className="nav-item">
@@ -56,19 +48,12 @@ function ProfilePage() {
 												<span className="badge bg-danger badge-pill ml-auto">29</span>
 											</Link>
 										</li>
-										<li className="nav-item">
-											<Link to="#" className="nav-link" data-toggle="tab">
-												<i className="icon-cart2"></i>
-												Orders
-												<span className="badge bg-success badge-pill ml-auto">16</span>
-											</Link>
-										</li>
 										<li className="nav-item-divider"></li>
 										<li className="nav-item">
-											<a href="login_advanced.html" className="nav-link" data-toggle="tab">
+											<Link to="/logout" className="nav-link" data-toggle="tab">
 												<i className="icon-switch2"></i>
 												Logout
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>

@@ -28,7 +28,7 @@ function Nav() {
                         <span>Johnalexx</span>
                     </Link>
                     <div className="dropdown-menu dropdown-menu-right">
-                        <Link to="#" className="dropdown-item">
+                        <Link to="/profile" className="dropdown-item">
                             <i className="icon-user">
                                 My Profile
                             </i>
@@ -39,7 +39,7 @@ function Nav() {
                                 Account Settings
                             </i>
                         </Link>
-                        <Link to="#" className="dropdown-item">
+                        <Link to="/logout" className="dropdown-item">
                             <i className="icon-switch2">
                                 Logout
                             </i>

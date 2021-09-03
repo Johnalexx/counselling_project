@@ -14,7 +14,7 @@ function ResetPass() {
                                     <button type="submit" class="btn btn-primary btn-lg btn-block">Send Link</button>
                                 </div>
                            </form>
-                       </div>
+                    </div>
             </div>
         </div>
     )

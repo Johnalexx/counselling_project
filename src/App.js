@@ -28,6 +28,7 @@ import UserChatRoom from './pages/functions/authorized users/UserChatRoom';
 import AdminChatRoom from './pages/functions/admin/AdminChatRoom';
 import CounselLog from './pages/functions/authorized users/CounselLog';
 import React from 'react';
+import UpdatePass from './pages/auth/UpdatePass';
 
 
 function App() {
@@ -36,7 +37,8 @@ function App() {
       <Switch>
         <div className="App">
           <Nav />
-          <Route path ="/" component={Index} exact/>
+          {/* <Route path ="/" component={Index} exact/> */}
+          <Route path ="/" component={Login} exact/>
           <Route path ="/contact" component={Contact} exact/>
           <Route path ="/about" component={About} exact/>
           <Route path ="/view-counsellors" component={viewCounsellor} exact/>
@@ -53,11 +55,12 @@ function App() {
           <Route path="/meeting-log" component={CounselLog} exact/>
           {/* Important Pages */}
           <Route path="/book-appointment" component={BookAppointment} exact/>
-          <Route path="/user-profile" component={ProfilePage} exact/>
+          <Route path="/profile" component={ProfilePage} exact/>
           {/* Auth path */}
-          <Route path ="/login" component={Login} exact/>
-          <Route path ="/signup" component={Signup} exact/>
-          <Route path = "/reset-password" component={ResetPass} exact/>
+          <Route path="/login" component={Login} exact/>
+          <Route path="/signup" component={Signup} exact/>
+          <Route path="/reset-password" component={ResetPass} exact/>
+          <Route path="/update-password" component={UpdatePass} exact/>
           {/* Error Pages
           <Route path="*" component={NotFound} exact/> */}
         </div>

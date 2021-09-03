@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Axios from 'axios'
+import Axios from 'axios';
 import Login1 from '../../images/logo1.png';
 import {Link} from 'react-router-dom';
 
@@ -10,7 +10,7 @@ function Signup() {
     const [emailReg, setEmailReg] = useState('');
 
     const Signup = () => {
-        Axios.post("http://localhost:3001/register", {
+        Axios.post("http://localhost:3001/signup", {
             username: usernameReg,
             email: emailReg,
             password: passwordReg,
