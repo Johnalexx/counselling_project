@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import Axios from 'axios';
 import Login1 from '../../images/logo1.png';
 import {Link} from 'react-router-dom';
+// Form Validations Import
+import Form from "react-validation/build/form";
+import Input from "react-validation/build/input";
+import CheckButton from "react-validation/build/button";
+
 
 function Login() {
 
@@ -11,7 +16,7 @@ function Login() {
     const [loginStatus, setLoginStatus] = useState("");
 
     const Signin = () => {
-        Axios.post("http://localhost:3001/login", {
+        Axios.post("http://localhost:3001/signup", {
             username: username,
             password: password, 
         }).then((response) => {

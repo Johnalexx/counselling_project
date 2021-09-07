@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import UserProfileImage from '../images/profile/pro-image.jpg';
-import '../Profile.css'
+import UserProfileImage from '../../images/profile/pro-image.jpg';
+import '../../Profile.css'
 
-function ProfilePage() {
+function UserProfilePage() {
     return (
         <div>
             <h2>Profile Page</h2>
@@ -62,4 +62,4 @@ function ProfilePage() {
     )
 }
 
-export default ProfilePage
+export default UserProfilePage

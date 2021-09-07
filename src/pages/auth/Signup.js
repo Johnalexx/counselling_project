@@ -3,6 +3,13 @@ import Axios from 'axios';
 import Login1 from '../../images/logo1.png';
 import {Link} from 'react-router-dom';
 
+import Form from "react-validation/build/form";
+import Input from "react-validation/build/input";
+import CheckButton from "react-validation/build/button";
+
+import { isEmail } from "validator";
+
+
 function Signup() {
 
     const [usernameReg, setUsernameReg] = useState('');

@@ -1,9 +1,15 @@
 import React from 'react';
 import {useState} from 'react';
 import Axios from 'axios';
+import Form from "react-validation/build/form";
+import Input from "react-validation/build/input";
+import CheckButton from "react-validation/build/button";
+
+import { isEmail } from "validator";
+
 // import Bg1 from '../images/book-appointment.png';
-import Bg1 from '../images/app1.png';
-import '../Appoint.css';
+import Bg1 from '../../images/app1.png';
+import '../../Appoint.css';
 
 function BookAppointment() {
     const [email, setEmail] = useState ("");
